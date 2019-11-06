@@ -22,13 +22,10 @@ public class App
     	Session session=factory.openSession();
     	Employeee emp=new Employeee();
     	emp.setEmpName("aaaaaa");
-    	emp.setBranch("agra");
+    	emp.setBranch("ss");
     	session.beginTransaction();
     	session.save(emp);
     	session.getTransaction().commit();
     	
-    	
-    	
-  
     }
 }
