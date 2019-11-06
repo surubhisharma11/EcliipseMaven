@@ -11,31 +11,30 @@ public class Employeee {
 		this.empName = empName;
 		Branch = branch;
 	}
-	public Employeee() {}
-	public int getId(){
+	public Employeee() {
+		super();
+	}
+	public int getId() {
 		return id;
 	}
-
+	public void setId(int id) {
+		this.id = id;
+	}
 	public String getEmpName() {
 		return empName;
 	}
 	public void setEmpName(String empName) {
 		this.empName = empName;
 	}
-	public String getbranch() {
+	public String getBranch() {
 		return Branch;
 	}
 	public void setBranch(String branch) {
-		this.Branch = branch;
+		Branch = branch;
 	}
-	public void setId(int id) {
-		this.id = id;
-	}
-	
 	@Override
 	public String toString() {
 		return "Employeee [id=" + id + ", empName=" + empName + ", Branch=" + Branch + "]";
 	}
-	
 	
 }
