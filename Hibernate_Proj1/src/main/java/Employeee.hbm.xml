@@ -1,4 +1,4 @@
- <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE hibernate-mapping PUBLIC 
 "-//Hibernate/Hibernate Mapping DTD//EN"
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
@@ -8,12 +8,12 @@
    <id name="id" column="id">
    
     <generator class="sequence">
-        <param name="sequence">NAME_OF_YOUR_SEQUENCE</param>
+        <param name="sequence">emp_id</param>
     </generator>
   
      </id>
      <property name="empName" column="empname"/>
      <property name="Branch"/>
      </class>
-     </hibernate-mapping>
-      
+</hibernate-mapping>
+  
