@@ -23,6 +23,16 @@ public class Employeee {
 	public void setId(int id) {
 		this.id = id;
 	}
+	public Employeee(int id, String empName, String branch) {
+		super();
+		this.id = id;
+		this.empName = empName;
+		Branch = branch;
+	}
+	@Override
+	public String toString() {
+		return "Employeee [id=" + id + ", empName=" + empName + ", Branch=" + Branch + "]";
+	}
 	
 	
 }
