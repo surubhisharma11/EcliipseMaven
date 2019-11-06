@@ -8,6 +8,7 @@ public class Employeee {
 	public int getId(){
 		return id;
 	}
+	public Employeee() {}
 	public String getEmpName() {
 		return empName;
 	}
