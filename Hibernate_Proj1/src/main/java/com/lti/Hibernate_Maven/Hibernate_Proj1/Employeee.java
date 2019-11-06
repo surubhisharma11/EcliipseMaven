@@ -5,10 +5,17 @@ public class Employeee {
 	private int id;
 	private String empName;
 	private String Branch;
+	public Employeee(int id, String empName, String branch) {
+		super();
+		this.id = id;
+		this.empName = empName;
+		Branch = branch;
+	}
+	public Employeee() {}
 	public int getId(){
 		return id;
 	}
-	public Employeee() {}
+
 	public String getEmpName() {
 		return empName;
 	}
@@ -24,12 +31,7 @@ public class Employeee {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public Employeee(int id, String empName, String branch) {
-		super();
-		this.id = id;
-		this.empName = empName;
-		Branch = branch;
-	}
+	
 	@Override
 	public String toString() {
 		return "Employeee [id=" + id + ", empName=" + empName + ", Branch=" + Branch + "]";
